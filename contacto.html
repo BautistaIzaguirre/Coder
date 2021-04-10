@@ -8,10 +8,8 @@
 	<!-- Css -->
 	<link rel="stylesheet" type="text/css" href="estilos.css">
 
-	<!-- WoW -->
-	<link rel="stylesheet" href="https://raw.github.com/daneden/animate.css/master/animate.css">
 </head>
-<body>
+<body class="contactar">
 
 <!-- Header -->
 <header class="header">
@@ -42,10 +40,15 @@
 </header>
 <!-- Fin de Header -->
 
-<h1 class="animate__animated animate__heartBeat texto-index">Ve fotos de animales</h1>
-<div class="botonver">
-	<button class="boton-index"><a href="animales.html">Ver Animales</a></button>
-</div>
+
+<form id="form" class="topBefore">
+		
+		  <input id="Nombre" type="text" placeholder="Nombre">
+		  <input id="Email" type="text" placeholder="Email">
+		  <textarea id="Mensaje" type="text" placeholder="Mesaje"></textarea>
+  <input id="Enviar" type="submit" value="Enviar">
+  
+</form>
 
 
 <!-- Footer -->
@@ -76,13 +79,6 @@
 
 </footer>
 <!-- Fin de Footer -->
-
-
-<!-- WoW -->
-<script src="js/wow.min.js"></script>
-<script>
-   new WOW().init();
-</script>
 
 </body>
 </html>
